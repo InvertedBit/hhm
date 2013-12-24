@@ -33,7 +33,7 @@ class AppController extends Controller {
   public $components = array('DebugKit.Toolbar');
   public function beforeFilter() {
     $locale = Configure::read('Config.language');
-    if($locale && file_exists(VIEWS . $locale . DS . $this->viewPath)) {
+    if($locale && file_exists(APP . 'View' . $locale . DS . $this->viewPath)) {
       $this->viewPath = $locale . Ds . $this->viewPath;
     }
   }
