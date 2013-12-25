@@ -18,11 +18,6 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-require_once dirname(__DIR__) . '/Vendor/autoload.php';
-
-//CakePlugin::load('Utility', array('bootstrap' => true, 'routes' => true));
-//CakePlugin::load('Admin', array('bootstrap' => true, 'routes' => true));
-
 /**
  * CakePHP Debug Level:
  *
@@ -380,4 +375,3 @@ Cache::config('_cake_model_', array(
 	'serialize' => ($engine === 'File'),
 	'duration' => $duration
 ));
-

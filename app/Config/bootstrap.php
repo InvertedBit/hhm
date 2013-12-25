@@ -71,9 +71,6 @@ Cache::config('default', array('engine' => 'File'));
  */
 
 CakePlugin::load('DebugKit');
-CakePlugin::load('Utility', array('bootstrap' => true, 'routes' => true));
-CakePlugin::load('Admin', array('bootstrap' => true, 'routes' => true));
-
 
 /**
  * You can attach event listeners to the request lifecycle as Dispatcher Filter. By default CakePHP bundles two filters:
@@ -110,5 +107,3 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
-
-CakePlugin::load('Composer', array('bootstrap' => true));
