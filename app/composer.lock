@@ -1,0 +1,214 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "da0c40c650d1777573cd6b927be0a632",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "d792632d27e1980d921cbbba12eab7b888338d4c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/d792632d27e1980d921cbbba12eab7b888338d4c",
+                "reference": "d792632d27e1980d921cbbba12eab7b888338d4c",
+                "shasum": ""
+            },
+            "replace": {
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installers\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "http://dontkry.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "TYPO3 CMS",
+                "TYPO3 Flow",
+                "TYPO3 Neos",
+                "agl",
+                "cakephp",
+                "codeigniter",
+                "concrete5",
+                "drupal",
+                "fuelphp",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "li3",
+                "lithium",
+                "mako",
+                "modulework",
+                "phpbb",
+                "ppi",
+                "silverstripe",
+                "symfony",
+                "wordpress",
+                "zend"
+            ],
+            "time": "2013-10-24 16:13:49"
+        },
+        {
+            "name": "mjohnson/admin",
+            "version": "1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/milesj/admin.git",
+                "reference": "b71e395d1d22c6ce8501b95f591eb120e984523b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/milesj/admin/zipball/b71e395d1d22c6ce8501b95f591eb120e984523b",
+                "reference": "b71e395d1d22c6ce8501b95f591eb120e984523b",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "ext-mbstring": "*",
+                "mjohnson/utility": "~1.5",
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "mjohnson/uploader": "~4.3"
+            },
+            "type": "cakephp-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Miles Johnson",
+                    "homepage": "http://milesj.me"
+                }
+            ],
+            "description": "A CakePHP admin plugin.",
+            "homepage": "http://milesj.me/code/cakephp/admin",
+            "keywords": [
+                "admin",
+                "cakephp",
+                "create",
+                "crud",
+                "delete",
+                "plugin",
+                "read",
+                "update"
+            ],
+            "time": "2013-12-21 06:00:26"
+        },
+        {
+            "name": "mjohnson/utility",
+            "version": "1.6.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/milesj/utility.git",
+                "reference": "229d58281abb9f7cae81fbbbebcb5dc4221caf14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/milesj/utility/zipball/229d58281abb9f7cae81fbbbebcb5dc4221caf14",
+                "reference": "229d58281abb9f7cae81fbbbebcb5dc4221caf14",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "suggest": {
+                "mjohnson/decoda": "Enable Decoda for BBCode parsing in the DecodaHelper",
+                "titon/utility": "Enable Titon to parse feeds in FeedSource and process AJAX in the AjaxHandlerComponent"
+            },
+            "type": "cakephp-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Miles Johnson",
+                    "homepage": "http://milesj.me"
+                }
+            ],
+            "description": "A collection of CakePHP utility libraries.",
+            "homepage": "http://milesj.me/code/cakephp/utility",
+            "keywords": [
+                "Behavior",
+                "Sitemap",
+                "aggregator",
+                "ajax-handler",
+                "auto-login",
+                "bbcode",
+                "cache-kill",
+                "cacheable",
+                "cakephp",
+                "component",
+                "controller",
+                "convertable",
+                "datasource",
+                "decoda",
+                "enumerable",
+                "feed",
+                "filterable",
+                "helper",
+                "markup",
+                "model",
+                "open-graph",
+                "plugin",
+                "shell",
+                "sluggable",
+                "spam-blocker",
+                "utility",
+                "validateable"
+            ],
+            "time": "2013-12-14 07:08:26"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
